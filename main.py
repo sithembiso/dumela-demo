@@ -6,6 +6,8 @@ testmodules = [
 
 suite = unittest.TestSuite()
 
+
+# new python changes
 for t in testmodules:
     try:
         # If the module defines a suite() function, call it to get the suite.
